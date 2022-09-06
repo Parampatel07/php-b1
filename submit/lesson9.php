@@ -1,33 +1,53 @@
 <?php
-$count=1;
-$flash=1;
-$count_minus=9;
-$flash_count=1;
-$print=1;
-$count_main=0;
-for($temp=1;$temp<6;$temp++)
+$count=0;
+$flash=0;
+$temp=0;
+$minus=5;
+$new=1;
+// echo "*";
+while($temp<5)
 {
-    $count=1;
-    while($count<=$count_minus)
+    while($count<=$minus)
     {
         echo "&nbsp&nbsp";
         $count++;
     }
-    $flash=1;
-    while($flash<=$flash_count)
+    $flash=0;
+    while($flash<=$temp)
     {
-        // if()
-        echo $print;
-        $print++;
-        // $print--;
-        echo "&nbsp&nbsp";
+        if($flash==0)
+        {
+            echo $new;
+        }
+        else if($flash==1)
+        {
+            echo $new+1;
+        }
+        else if($flash==2)
+        {
+            if($temp==2)
+            {
+                echo $new;
+            }
+            else if($temp==4)
+            {
+                echo $new+2;
+            }
+        }
+        else if($flash==3)
+        {
+            echo $new+1;
+        }
+        else if($flash==4)
+        {
+            echo $new;
+        }
+        // echo $new;
         $flash++;
     }
     echo "<br>";
-    $count_minus=$count_minus-2;
-    $flash_count=$flash_count+2;
-    // $print++;
-    $count_main++;
-    // echo "the value of count main is".$coutn_
+    $count=0;
+    $temp=$temp+2;
+    $minus--;
+    $new++;
 }
-?>
