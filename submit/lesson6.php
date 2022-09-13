@@ -5,7 +5,7 @@ extract($_POST);
 $count_colums=0;
 $count_rows=0;
 // $colum=2;
-echo "
+$table_product= "
 <table border='2'>
   ";
   while($count_rows<$rows)

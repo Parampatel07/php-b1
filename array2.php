@@ -27,7 +27,5 @@ while($flash<=7)
     }
     $flash++;
 }
-
-
 var_dump($number);
 ?>
