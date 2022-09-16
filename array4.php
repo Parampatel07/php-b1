@@ -1,0 +1,23 @@
+<!-- write a programe to peform multi dimensonal array -->
+<?php
+$father=array();
+$marks=array();
+$subject=array();
+$subject[0]="Science";
+$subject[1]="math";
+$subject[2]="english";
+$marks[0]=10;
+$marks[1]=20;
+$marks[2]=30;
+$marks[3]=40;
+$marks[4]=$subject;
+$father['name']="ram";
+$father['age']=45;
+$father['gender']="Male";
+$person=array();
+$person[1]=($father);
+$person[2]=($mother['name']="sita");
+$person[3]=($child['name']="lav");
+$person[4]=($marks);
+var_dump($person);
+?>

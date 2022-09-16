@@ -17,7 +17,7 @@ while($flash<=7)
     $count=$flash+1;
     while($count<=7)
     {
-        if($number[$flash]<$number[$count])
+        if($number[$flash]>$number[$count])
         {
             $temp=$number[$flash];
             $number[$flash]=$number[$count];
