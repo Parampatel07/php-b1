@@ -1,0 +1,13 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 26 Sep 2022 18:23:19 at https://codervent.com/rocker/demo/vertical/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://codervent.com/rocker/demo/vertical/index.html -O1 "E:\httrack\php b-1 project" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+18:28:02	Error: 	"Not Found" (404) at link https://codervent.com/rocker/demo/vertical/authentication-login.html (from https://codervent.com/rocker/demo/vertical/authentication-reset-password.html)
+18:28:02	Error: 	"Forbidden" (403) at link https://cdn.searchenginejournal.com/wp-content/uploads/2019/03/shutterstock_1338315902.png (from https://codervent.com/rocker/demo/vertical/errors-404-error.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 4 minutes 43 seconds : 769 links scanned, 766 files written (71893680 bytes overall) [65285185 bytes received at 230689 bytes/sec], 9330846 bytes transferred using HTTP compression in 153 files, ratio 26%, 18.3 requests per connection
+(2 errors, 0 warnings, 0 messages)
