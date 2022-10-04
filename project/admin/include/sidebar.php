@@ -46,9 +46,11 @@
 							</div>
 						</a>
 						<ul class="dropdown-menu dropdown-menu-end">
-							<li><a class="dropdown-item" href="javascript:;"><i class="bx bx-user"></i><span>Profile</span></a>
+							<li><a class="dropdown-item" href="admin_change_password.php"><i class="bx bx-cog"></i><span>Change Password</span></a>
 							</li>
-							<li><a class="dropdown-item" href="javascript:;"><i class="bx bx-cog"></i><span>Settings</span></a>
+							<li><a class="dropdown-item" href="#"><i class="bx bx-cog"></i><span>Logout</span></a>
+							</li>
+							<!-- <li><a class="dropdown-item" href="javascript:;"><i class="bx bx-cog"></i><span>Settings</span></a>
 							</li>
 							<li><a class="dropdown-item" href="javascript:;"><i class='bx bx-home-circle'></i><span>Dashboard</span></a>
 							</li>
@@ -60,7 +62,7 @@
 								<div class="dropdown-divider mb-0"></div>
 							</li>
 							<li><a class="dropdown-item" href="javascript:;"><i class='bx bx-log-out-circle'></i><span>Logout</span></a>
-							</li>
+							</li> -->
 						</ul>
 					</div>
 				</nav>
