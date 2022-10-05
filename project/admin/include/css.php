@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
@@ -23,4 +24,6 @@
 	<link rel="stylesheet" href="theme/codervent.com/rocker/demo/vertical/assets/css/dark-theme.css" />
 	<link rel="stylesheet" href="theme/codervent.com/rocker/demo/vertical/assets/css/semi-dark.css" />
 	<link rel="stylesheet" href="theme/codervent.com/rocker/demo/vertical/assets/css/header-colors.css" />
+	<link href="theme/codervent.com/rocker/demo/vertical/assets/plugins/datatable/css/dataTables.bootstrap5.min.css" rel="stylesheet" />
+
 	<title>Fees management</title>

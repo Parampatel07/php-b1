@@ -18,25 +18,19 @@
 						</div>
 						<div class="menu-title">Dashboard</div>
 					</a>
+					<a href="branch_management.php" class="has-arrow">
+						<div class="parent-icon"><i class='bx bx-home-circle'></i>
+						</div>
+						<div class="menu-title">Branch Management</div>
+					</a>
 				</li>
-
-
 			</ul>
-			<!--end navigation-->
 		</div>
-		<!--end sidebar wrapper -->
-		<!--start header -->
 		<header>
 			<div class="topbar d-flex align-items-center">
 				<nav class="navbar navbar-expand">
 					<div class="mobile-toggle-menu"><i class='bx bx-menu'></i>
 					</div>
-					<!-- <div class="search-bar ">
-						<div class="position-relative search-bar-box">
-							<input type="text" class="form-control search-control" placeholder="Type to search..."> <span class="position-absolute top-50 search-show translate-middle-y"><i class='bx bx-search'></i></span>
-							<span class="position-absolute top-50 search-close translate-middle-y"><i class='bx bx-x'></i></span>
-						</div>
-					</div> -->
 					<div class="user-box dropdown ">
 						<a class="d-flex align-items-center nav-link dropdown-toggle dropdown-toggle-nocaret" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 							<img src="theme/codervent.com/rocker/demo/vertical/assets/images/avatars/avatar-2.png" class="user-img" alt="user avatar">

@@ -2,7 +2,6 @@
 require_once("include/css.php");
 ?>
 </head>
-
 <body>
     <!-- wrapper -->
     <div class="wrapper">
