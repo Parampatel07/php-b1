@@ -13,10 +13,15 @@
 			<!--navigation-->
 			<ul class="metismenu" id="menu">
 				<li>
-					<a href="javascript:;" class="has-arrow">
+					<a href="admin_fees_report.php" class="has-arrow">
 						<div class="parent-icon"><i class='bx bx-home-circle'></i>
 						</div>
-						<div class="menu-title">Dashboard</div>
+						<div class="menu-title">Fees report</div>
+					</a>
+					<a href="admin_branch_report.php" class="has-arrow">
+						<div class="parent-icon"><i class='bx bx-home-circle'></i>
+						</div>
+						<div class="menu-title">Branch Wise report</div>
 					</a>
 					<a href="branch_management.php" class="has-arrow">
 						<div class="parent-icon"><i class='bx bx-home-circle'></i>

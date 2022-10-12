@@ -13,15 +13,20 @@
 			<!--navigation-->
 			<ul class="metismenu" id="menu">
 				<li>
-					<a href="javascript:;" class="has-arrow">
+					<a href="branch_report.php" class="has-arrow">
 						<div class="parent-icon"><i class='bx bx-home-circle'></i>
 						</div>
-						<div class="menu-title">Dashboard</div>
+						<div class="menu-title">Reports</div>
 					</a>
 					<a href="branch_package_management.php" class="has-arrow">
 						<div class="parent-icon"><i class='bx bx-home-circle'></i>
 						</div>
 						<div class="menu-title">Package managent</div>
+					</a>
+					<a href="branch_fees_management.php" class="has-arrow">
+						<div class="parent-icon"><i class='bx bx-home-circle'></i>
+						</div>
+						<div class="menu-title">Fees managent</div>
 					</a>
 				</li>
 			</ul>
